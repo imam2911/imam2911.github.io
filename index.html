@@ -4,15 +4,273 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Imam Portfolio Website</title>
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Typing script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
+
+
 </head>
 <body>
+    <!-- navbar start section -->
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html">
+                <h4><span>Imam</span>Hossain</h4>
+            </a>
+            <ul class="nav_menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-    <p>This is my Portfolio website</p>
-    <p>..... developement is on going ..... </p>
+            <!-- This button is used when the window size is small and also its work in responsive way -->
+            
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-x"></i></button>
+        </div>
+    </nav>
+    <!-- End of navbar section -->
 
-    <h1>nice</h1>
-    <h4>new text</h4>
+    <!-- Header section Start -->
+    <header>
+        <div class="container header_container" id="home">
+            <div class="header_left">
+                <div class="header_left_img">
+                    <img src="images/profile.png" alt="My Image">
+                </div>
+            </div>
+            <div class="header_right">
+                <div class="text1">Hello, this is </div>
+                <div class="text2">Imam Hossain</div>
+                <div class="text3">And I'm a <span class="typing"></span></div>
+                <a href="http://facebook.com/imam3d" class="btn">Hire Me</a>
+            </div>
+
+        </div>
+    </header>
+    <!-- Header section End -->
+
+    <!-- About Me Section Start Here -->
+    <section class="about" id="about">
+        <h2 class="border_bottom">About Me</h2>
+        <div class="container about_container">
+            <div class="about-img">
+                <img src="images/profile.png" alt="about model">
+            </div>
+            <div class="about-text">
+                <div class="text">
+                    I am Mohammad Imam Hossain and I'm a <span class="typing-2"></span>
+                </div>
+                <p>I have completed my graduation in CSE from Daffodil International University in 2023.
+                    Technology is my passion. I always try to learn new technology related to my work and 
+                    also love to  share my knowledge and
+                    experience to others.
+                    Because I believe that "helping others means helping yourself".</p>
+                <a href="https:facebook.com/imam3d" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+    <!-- About Me Section End Here -->
     
+
+    <!-- My Skills Section Start Here -->
+    <div class="skills" id="skills">
+        <div class="new">
+            <h2 class="border_bottom">My Skills</h2>
+        </div>
+        <div class="container skills_container">
+            <div class="bar">
+                <div class="info">
+                    <span>HTML</span>
+                </div>
+                <div class="progress-line html">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>CSS</span>
+                </div>
+                <div class="progress-line css">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>JQuery</span>
+                </div>
+                <div class="progress-line jquery">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>Python</span>
+                </div>
+                <div class="progress-line python">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="info">
+                    <span>MySQL</span>
+                </div>
+                <div class="progress-line mysql">
+                    <span></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- My Skills Section End Here -->
+
+    <!-- My Portfolio Section Start Here -->
+    <div class="container portfolio_container" id="portfolio">
+        <h2 class="border_bottom">My Portfolio</h2>
+        <div class="gallery">
+            <a href="image/portfolio 1.jpg"><img src="images/picture1.jpg" alt="Portfolio 1"></a>
+            <a href="image/portfolio 2.jpg"><img src="images/picture2.jpg" alt="Portfolio 1"></a>
+            <a href="image/portfolio 3.jpg"><img src="images/picture3.jpg" alt="Portfolio 1"></a>
+        </div>
+    </div>
+    <!-- My Portfolio Section End Here -->
+
+    
+    <!-- FAQs Section Start Here -->
+    <section class="faqs">
+        <h2 class="border_bottom">
+            Frequently Asked Question About Me
+        </h2>
+        <div class="container faqs_container">
+            <article class="faq">
+                <div class="faq_icon">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="question_ans">
+                    <h4>Are You A FullStack Web Developer?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae assumenda consectetur
+                        similique, explicabo quod porro accusamus commodi est eaque numquam ratione odio labore
+                        quibusdam debitis saepe doloribus cum dicta? Labore.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq_icon">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="question_ans">
+                    <h4>Can I see some other sites you have made?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae assumenda consectetur
+                        similique, explicabo quod porro accusamus commodi est eaque numquam ratione odio labore
+                        quibusdam debitis saepe doloribus cum dicta? Labore.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq_icon">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="question_ans">
+                    <h4>Can I see some other sites you have made?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae assumenda consectetur
+                        similique, explicabo quod porro accusamus commodi est eaque numquam ratione odio labore
+                        quibusdam debitis saepe doloribus cum dicta? Labore.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq_icon">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="question_ans">
+                    <h4>Are you Expart in Database Management?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae assumenda consectetur
+                        similique, explicabo quod porro accusamus commodi est eaque numquam ratione odio labore
+                        quibusdam debitis saepe doloribus cum dicta? Labore.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq_icon">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="question_ans">
+                    <h4>Do you have any experience in group work?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae assumenda consectetur
+                        similique, explicabo quod porro accusamus commodi est eaque numquam ratione odio labore
+                        quibusdam debitis saepe doloribus cum dicta? Labore.</p>
+                </div>
+            </article>
+            <article class="faq">
+                <div class="faq_icon">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="question_ans">
+                    <h4>Are you already in a job or not?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae assumenda consectetur
+                        similique, explicabo quod porro accusamus commodi est eaque numquam ratione odio labore
+                        quibusdam debitis saepe doloribus cum dicta? Labore.</p>
+                </div>
+            </article>
+            
+        </div>
+    </section>
+    <!-- FAQs Section End Here -->
+
+    <!-- Footer Section Start Here -->
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo">
+                    <h4>IMAM</h4>
+                </a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque sequi nobis enim.</p>
+            </div>
+
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy & Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Refund Ploicy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4 id="contact">Contact Me</h4>
+                <div>
+                    <p>+880 1706131388</p>
+                    <p class="mail">mohammad15-2437@diu.edu.bd</p>
+                </div>
+                <ul class="footer_social">
+                    <li><a href="https://facebook.com/"> <i class="fa-brands fa-facebook-f"></i> </a></li>
+                    <li><a href="https://instagram.com/"> <i class="fa-brands fa-instagram"></i> </a></li>
+                    <li><a href="https://linkedin.com/"> <i class="fa-brands fa-linkedin"></i> </a></li>
+                    <li><a href="https://youtube.com/"> <i class="fa-brands fa-youtube"></i> </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <small>Copyright &copy; DEVELOPER IMAM</small>
+        </div>
+    </footer>
+    <!-- Footer Section End Here -->
+
+    <!-- Custom Java Script File link -->
+    <script src="js/script.js"></script>
 </body>
 </html>
